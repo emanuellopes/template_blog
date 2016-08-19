@@ -1,0 +1,54 @@
+
+# SEO settings
+title: "Blog"
+title2: "space" # default: ""
+description: "Just another minimalist Jekyll theme that focuses on technical writing."
+keywords: "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
+url: https://emanuellopes.github.io/ # site url
+baseurl: "" # apply repo name if use it under gh-pages branch
+# baseurl: null # apply null if repo name is something like username.github.io
+
+google_analytics: UA-36251915-2
+repo: https://github.com/emanuellopes/blog
+
+# Build settings
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : rouge
+
+source: ./
+destination: ./_site
+
+# Sass configuration
+sass:
+  sass_dir: assets/scss
+  style: compressed # expanded
+
+# Author settings
+author:
+  name     : "Emanuel Lopes"
+  bio      : "Este é só mais um blog sobre Linux!!"
+  thumb    : /images/author.jpg
+  email    : emanuel.lopes.pt@gmail.com
+  url      : http://emanuellopes.github.io/
+  github   : http://github.com/emanuellopes
+  facebook : https://www.facebook.com/emanuel.lopes.pt
+  linkedin : http://linkedin.com/in/nrird
+
+# social settings
+og_locale: "pt_PT"
+twitter_card: "summary_large_image"
+twitter_site: "@emanuelxpt"
+
+gems:
+  - bourbon
+  - jekyll-paginate
+
+# navbar pages
+navbar:
+  - slug : about
+    title: About
+  - slug : blog
+    title: Blog
+
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
