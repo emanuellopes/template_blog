@@ -13,8 +13,6 @@ Como já é hábito virem-me pedir para resolver exercícios em bash, fica aqui 
 
 Devolver o número de vezes que os caracteres 'A' e 'a' aparecem, no conteúdo codificado, em base 64, do ficheiro /etc/hosts.
 
-###Abrimos o terminal :)
-
 <i class="fa fa-terminal" aria-hidden="true">Terminal</i>
 
 ~~~ bash
