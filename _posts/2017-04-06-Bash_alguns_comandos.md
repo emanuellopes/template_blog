@@ -26,3 +26,14 @@ Devolver o número de símbolos que compõem uma assinatura sha512sum
 ~~~ bash
 emanuelx@terminator ~ $ sha512sum photo.jpg | cut -d' ' -f1| tr -sd '\n' '' | wc -c
 ~~~
+
+
+O caminho completo para a diretoria atual em codificação base64.
+
+<i class="fa fa-terminal" aria-hidden="true">Terminal</i>
+
+~~~ bash
+emanuelx@terminator ~ $ pwd | base64
+~~~
+
+
